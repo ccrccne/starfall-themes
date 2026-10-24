@@ -1,0 +1,107 @@
+/* Starfall para Obsidian, por ccrccne. Noche en modo oscuro y día en modo claro. */
+.theme-dark {
+    --background-primary: #0f1a3d;
+    --background-primary-alt: #15224a;
+    --background-secondary: #0b1430;
+    --background-secondary-alt: #0b1430;
+    --background-modifier-border: #1d2c5a;
+    --background-modifier-hover: #7cc8f218;
+    --background-modifier-active-hover: #7cc8f218;
+    --text-normal: #e8f0fc;
+    --text-muted: #8ea4c8;
+    --text-faint: #6c80a8;
+    --text-accent: #7cc8f2;
+    --text-accent-hover: #f5a3c7;
+    --text-selection: #7cc8f240;
+    --text-highlight-bg: #ffd96b55;
+    --interactive-accent: #7cc8f2;
+    --interactive-accent-hover: #a3dafa;
+    --text-on-accent: #0b1430;
+    --color-accent: #7cc8f2;
+    --link-color: #7cc8f2;
+    --link-color-hover: #f5a3c7;
+    --link-external-color: #7cc8f2;
+    --h1-color: #7cc8f2;
+    --h2-color: #f5a3c7;
+    --h3-color: #ffd96b;
+    --h4-color: #8ee3a8;
+    --h5-color: #b3bcff;
+    --h6-color: #8ea4c8;
+    --bold-color: #ffd96b;
+    --italic-color: #f5a3c7;
+    --code-normal: #8ee3a8;
+    --code-background: #15224a;
+    --blockquote-border-color: #f5a3c7;
+    --hr-color: #1d2c5a;
+    --tag-color: #7cc8f2;
+    --tag-background: #7cc8f218;
+    --checkbox-color: #7cc8f2;
+    --checkbox-marker-color: #0b1430;
+    --caret-color: #ffd96b;
+    --titlebar-background: #0b1430;
+    --titlebar-background-focused: #0b1430;
+    --tab-text-color-focused-active: #e8f0fc;
+    --nav-item-color-active: #e8f0fc;
+    --nav-item-background-active: #26396d;
+    --graph-node: #7cc8f2;
+    --graph-node-focused: #ffd96b;
+    --graph-line: #1d2c5a;
+}
+
+.theme-light {
+    --background-primary: #f6fbff;
+    --background-primary-alt: #ffffff;
+    --background-secondary: #eaf5fd;
+    --background-secondary-alt: #eaf5fd;
+    --background-modifier-border: #d4ebf9;
+    --background-modifier-hover: #2976a918;
+    --background-modifier-active-hover: #2976a918;
+    --text-normal: #1d3b55;
+    --text-muted: #5d7b93;
+    --text-faint: #738799;
+    --text-accent: #2976a9;
+    --text-accent-hover: #c2477a;
+    --text-selection: #2976a945;
+    --text-highlight-bg: #94660855;
+    --interactive-accent: #2976a9;
+    --interactive-accent-hover: #2675aa;
+    --text-on-accent: #ffffff;
+    --color-accent: #2976a9;
+    --link-color: #2976a9;
+    --link-color-hover: #c2477a;
+    --link-external-color: #2976a9;
+    --h1-color: #2976a9;
+    --h2-color: #c2477a;
+    --h3-color: #946608;
+    --h4-color: #2b824d;
+    --h5-color: #5a5fd0;
+    --h6-color: #5d7b93;
+    --bold-color: #946608;
+    --italic-color: #c2477a;
+    --code-normal: #2b824d;
+    --code-background: #ffffff;
+    --blockquote-border-color: #c2477a;
+    --hr-color: #d4ebf9;
+    --tag-color: #2976a9;
+    --tag-background: #2976a918;
+    --checkbox-color: #2976a9;
+    --checkbox-marker-color: #ffffff;
+    --caret-color: #946608;
+    --titlebar-background: #eaf5fd;
+    --titlebar-background-focused: #eaf5fd;
+    --tab-text-color-focused-active: #1d3b55;
+    --nav-item-color-active: #1d3b55;
+    --nav-item-background-active: #cfe8f8;
+    --graph-node: #2976a9;
+    --graph-node-focused: #946608;
+    --graph-line: #d4ebf9;
+}
+
+/* Toques de estrellita */
+.markdown-rendered ul > li::marker {
+    color: var(--h3-color);
+}
+.markdown-rendered blockquote {
+    border-radius: 0 10px 10px 0;
+    background: var(--background-primary-alt);
+}
